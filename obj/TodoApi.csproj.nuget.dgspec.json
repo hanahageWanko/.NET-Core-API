@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Weby/Desktop/git/ASP.NET-Core-API/TodoApi/TodoApi.csproj": {}
+    "/Users/Weby/Desktop/git/ASP.NET-Core-API/TodoApi.csproj": {}
   },
   "projects": {
-    "/Users/Weby/Desktop/git/ASP.NET-Core-API/TodoApi/TodoApi.csproj": {
+    "/Users/Weby/Desktop/git/ASP.NET-Core-API/TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Weby/Desktop/git/ASP.NET-Core-API/TodoApi/TodoApi.csproj",
+        "projectUniqueName": "/Users/Weby/Desktop/git/ASP.NET-Core-API/TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "/Users/Weby/Desktop/git/ASP.NET-Core-API/TodoApi/TodoApi.csproj",
+        "projectPath": "/Users/Weby/Desktop/git/ASP.NET-Core-API/TodoApi.csproj",
         "packagesPath": "/Users/Weby/.nuget/packages/",
-        "outputPath": "/Users/Weby/Desktop/git/ASP.NET-Core-API/TodoApi/obj/",
+        "outputPath": "/Users/Weby/Desktop/git/ASP.NET-Core-API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Weby/.nuget/NuGet/NuGet.Config"
@@ -51,6 +51,24 @@
               "noWarn": [
                 "NU1605"
               ]
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
